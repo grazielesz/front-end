@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>quadrado looping</title>
+    <style>
+        * {
+            user-select: none;
+        }
+
+        body {
+            overflow: hidden;
+        }
+
+        .quadrado {
+            animation: roda 1s ease-in-out alternate infinite;
+            position: absolute;
+            left: 60px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 23px rgb(0, 0, 0);
+        }
+
+        @keyframes roda {
+            to { 
+                transform: rotate(400deg);
+                background-color: rgb(204, 0, 255);                
+            }
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<script>
+    for(i = 0; i < 100; i++) {
+        var Quad = document.createElement("div");
+        Quad.className = "quadrado";
+        Quad.style.height = `${i * 12}px`;
+        Quad.style.width = `${i * 12}px`;
+        Quad.style.transform = `rotate(${i * 15}deg)`;
+        Quad.style.backgroundColor = `rgb(238, ${i*1}, ${i})`;
+        Quad.style.top = `calc(100% - ${i * i}px)`;
+        Quad.style.left = `calc(100% - ${i *i}px)`;
+        document.body.appendChild(Quad);
+    }
+</script>
