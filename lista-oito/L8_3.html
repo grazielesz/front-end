@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Style_L8_3.css" />
+        <title>Exercício 3</title>
+    </head>
+    <body>
+        <form method="POST" name="Form" action="#" class="Formu">
+            <div class="T1">
+                <img src="form.jpg">
+            </div>
+            <fieldset class="T2">
+                <fieldset class="Cadastro_Geral">
+                    <legend>Cadastro Geral</legend>
+                    <div id="L1">
+                        
+                            <fieldset id="geral">
+                                <legend>Dados pessoais</legend>
+
+                                <label for="Nome">Nome Completo:</label><br>
+                                <input type="text" name="Nome" id="Nome"><br><br>
+
+                                <label for="Profissao">Profissão:</label><br>
+                                <select id="Profissao"><option disabled selected>Sua profissão</option><option>Advogado</option><option>Caixa</option><option>Banqueiro</option><option>Policial</option><option>Outra</option></select>
+                            
+                                
+                            </fieldset>
+                        
+                        
+                            <fieldset id="geral2">
+                                <legend>Localização</legend>
+
+                                <label for="Email">E-mail:</label><br>
+                                <input type="text" name="Email" id="Email"><br><br>
+
+                                <label for="rua">Rua:</label><br>
+                                <input type="text" name="Rua" id="rua">
+                            </fieldset>
+                        
+                    </div>
+                    <div id="L2">
+                        <fieldset id='etaria'>
+                            <legend>Faixa etária</legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="+20" id="G_20"><label for="G_20">até 20 anos</label>
+                                    </td>
+                                    <td id='lado'>
+                                        <input type="radio" name="+40-50" id="G_40_L_50"><label for="G_40_L_50">mais de 40 até 50 anos</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="+20-30" id="G_20_L_30"><label for="G_20_L_30">mais de 20 até 30 anos</label>
+                                    </td>
+                                    <td id='lado'>
+                                        <input type="radio" name="+50-60" id="G_50_L_60"><label for="G_50_L_60">mais de 50 até 60 anos</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="+30-40" id="G_30_L_40"><label for="G_30_L_40">mais de 30 até 40 anos</label>
+                                    </td>
+                                    <td id='lado'>
+                                        <input type="radio" name="+60" id="G_60"><label for="G_60">mais de 60</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </div>
+                    <div id="L3">
+                        <fieldset id="esp">
+                            <legend>Esportes que pratica</legend>
+                        
+                            <input type="checkbox" name="Esp" value="Fut" id="Fut"><label for="Fut">Futebol de campo</label><br>
+                            <input type="checkbox" name="Esp" value="Fut-sal" id="Fut-sal"><label for="Fut-sal">Futebol de salão</label><br>
+                            <input type="checkbox" name="Esp" value="Fut-so" id="Fut-so"><label for="Fut-so">Futebol society</label><br>
+                            <input type="checkbox" name="Esp" value="Vol" id="Vol"><label for="Vol">Volley de quadra</label><br>
+                            <input type="checkbox" name="Esp" value="Vol-pra" id="Vol-pra"><label for="Vol-pra">Volley de praia</label><br>
+                            <input type="checkbox" name="Esp" value="Nat" id="Nat"><label for="Nat">Natação em piscina</label><br>
+                            <input type="checkbox" name="Esp" value="Nat-mar" id="Nat-mar"><label for="Nat-mar">Natação em mar aberto</label><br>
+
+                        </fieldset>
+                    </div>
+                </fieldset>
+                
+                <fieldset id="Comentario">
+                    <legend>Comentário</legend>
+                    <label for="MEN">Mensagem:</label><br>
+                    <textarea id="MEN" rows="5" cols="10"></textarea>
+                </fieldset>
+
+                <input type="submit" name="btnSalvar" value="Salvar">
+                <input type="reset" name="btnLimpar" value="Limpar Dados">
+            </fieldset>
+        </form>
+    </body>
+</html>

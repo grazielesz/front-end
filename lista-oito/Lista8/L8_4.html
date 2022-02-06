@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style_L8_4.css" />
+    <title>Exercício 4</title>
+</head>
+<body>
+    <form method="POST" name="Form" action="#" class="Formu">
+        <table id="title">
+            <tr>
+                <td id="primeira_parte">Não é associado? Faça seu cadastro</td>
+                <td id="Azul_Escuro"></td>
+            </tr>
+        </table>
+        <table id="I">
+            <tr>
+                <td id='F'><label for="Nome">Nome</label></td>
+                <td><input type="text" name="Nome" id="Nome"></td>
+            </tr>
+
+            <tr>
+                <td id='F'><label for="NomeC">Nome<br>Completo</label></td>
+                <td><input type="text" name="NomeC" id="NomeC"></td>
+            </tr>
+
+            <tr>
+                <td id='F'><label for="CPF">CPF</label></td>
+                <td><input type="text" name="CPF" id="CPF"></td>
+            </tr>
+
+            <tr>
+                <td id='F'><label for="Email">E-mail</label></td>
+                <td><input type="text" name="Email" id="Email"></td>
+            </tr>
+
+            <tr>
+                <td id='F'><label for="Website">WebSite</label></td>
+                <td><input type="text" name="Web" id="Website"></td>
+            </tr>
+
+            <tr>
+                <td id='F'><label for="End">Endereço</label></td>
+                <td><input type="text" name="End" id="End"></td>
+            </tr>
+        </table>
+        <table id="II">
+            <tr>
+                <td><label for="Bairro">Bairro</label></td>
+                <td><input type="text" name="Bairro" id="Bairro"></td>
+                <td><label for="City">Cidade</label></td>
+                <td><input type="text" name="City" id="City" ></td>
+            </tr>
+
+            <tr>
+                <td><label for="Cep">Cep</label></td>
+                <td><input type="text" name="Cep" id="Cep"></td>
+                <td><label for="Uf">UF</label></td>
+                <td><select><option>AC</option><option>AL</option><option>AP</option><option>AM</option><option>BA</option><option>CE</option><option>ES</option><option>GO</option><option>MA</option><option>MT</option><option>MS</option><option>MG</option><option>PA</option><option>PB</option><option>PR</option><option>PE</option><option>PI</option><option>RJ</option><option>RN</option><option>RS</option><option>RO</option><option>RR</option><option>SC</option><option>SP</option><option>SE</option><option>TO</option><option>DF</option></select></td>
+            </tr>
+
+            <tr>
+                <td><label for="Tel">Telefone</label></td>
+                <td><input type="text" name="Tel" id="Tel"></td>
+                <td><label for="Fax">Fax</label></td>
+                <td><input type="text" name="Fax" id="Fax"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Nas">Data<br>Nascimento</label></td>
+                <td><input type="text" name="Nas" id="Nas"></td>
+                <td><label>Sexo</label></td>
+                <td><input type="Radio" name="Sex" id="M"><label for="M">M</label><input type="Radio" name="Sex" id="M"><label for="F">F</label></td>
+            </tr>
+
+            <tr>
+                <td><label for="Cel">Celular</label></td>
+                <td><input type="text" name="Cel" id="Cel"></td>
+                <td><label for="Est">Est. Civil</label></td>
+                <td><select><option>Solteiro</option><option>Casado</option><option>Viúvo</option><option>Divorciado</option></select></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Log">Login</label></td>
+                <td><input type="text" name="Log" id="Log"></td>
+                <td><label for="Pass">Senha</label></td>
+                <td><input type="password" name="Pass" id="Pass"></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <label id='Assuntos'>Deseja receber informações sobre os seguintes assuntos abaixo:</label>
+
+        <label>
+            <table id="myBox">
+                <tr>
+                    <td><input type="checkbox" name="cbAssun" value="Tecno" id="Tecno"><label for="Tecno"> Tecnologia</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Esportes" id="Esp"><label for="Esp"> Esportes</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="culi" id="Culinaria"><label for="Culinaria"> Culinária</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Pol" id="Pol"><label for="Pol"> Política</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Poli" id="Poli"><label for="Poli"> Policial</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Temp" id="Temp"><label for="Temp"> Tempo</label></td>
+                </tr>       
+            </table> 
+            <table id="myBox">
+                <tr>   
+                    <td><input type="checkbox" name="cbAssun" value="Cult" id="Cult"><label for="Cult"> Cultura</label></td>    
+                    <td><input type="checkbox" name="cbAssun" value="Eco" id="Eco"><label for="Eco"> Economia</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Jogos" id="Jogos"><label for="Jogos"> Jogos</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Edu" id="Edu"><label for="Edu"> Educação</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Via" id="Via"><label for="Via"> Viagem</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="Emp" id="Emp"><label for="Emp"> Empregos</label></td>
+                    <td><input type="checkbox" name="cbAssun" value="ModEES" id="ModEES"><label for="ModEES"> Moda e Estilo</label></td>
+                </tr>
+            </table>
+        </label>
+
+        <label id='Regras'>
+            <input type="checkbox" name="cbAssun" value="Rules" id="Rules"><label for="Rules"> Li as regras de cadastro e autorizo a criação do usuário</label><br>
+        </label>
+        
+        <br>
+
+        <input type="submit" name="Save" value="Confirmar">
+
+        <input type="reset" name="Limpa" value="Retornar">
+    </form>
+</body>
+</html>

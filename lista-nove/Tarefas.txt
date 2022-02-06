@@ -1,0 +1,6 @@
+Dupla: Enzo e Graziele.
+
+Divisão de tarefas:
+1 - HTML: Graziele - CSS: Graziele
+2 - HTML: Graziele - CSS: Enzo
+3 - HTML: Enzo - CSS: Enzo

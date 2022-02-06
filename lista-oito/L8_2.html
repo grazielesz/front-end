@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='Style_L8_2.css' />
+        <title>Exercício 2</title>
+    </head>
+    <body>
+        <form method="POST" name="Form" action="#" class="Formu">
+            
+            <table>                    
+                <h4 id="cor">SISTEMA DE GESTÃO ACADÊMICA</h4>
+                <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+                    
+                <tr>
+                    <td>
+                        <label>
+                            <span>Login</span>
+                        </label>
+                    </td>
+                    <td>
+                        <div id="caixa"><input type="text" name="Nome" class="Nome">
+                    </tb>          
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <span>Senha</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <div id="caixa"><input type="password" name="Senha" class="Senha"></div>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <span>Status </span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <select><option>Inativo</option><option>Ativo</option></select>
+                        </label>
+                    </td>
+                </tr>    
+                <tr>
+                    <td>
+                        <label id='tipo'>
+                            <span>Tipo </span>
+                        </label>
+                    </td>
+                    <td>
+                       <input type='radio' name='Tipo' class='inp' id='tip1'><label for='tip1'> Técnico</label><input type='radio' name='Tipo' class='inp' id='tip2'><label for='tip2'> Professor</label><input type='radio' name='Tipo' class='inp' id='tip3'><label for='tip3'> Aluno</label>      
+                    </td>
+                </tr>
+                <tr>
+                    <td>    
+                        <label>
+                            <span>Data criação</span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type="text" name="Data" class="Data_Cria">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id='perfil'>
+                            <span>Perfil </span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <input type='radio' name='perfil' class='inp' id="inp1"><label for="inp1"> Convidado</label><input type='radio' name='perfil' class='inp' id='inp2'><label for="inp2">Administrador</label></label>   
+                        </label>    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                            <span>Observações </span>
+                        </label>
+                    </td>
+                    
+                    <td>
+                        <textarea rows="4" cols="35"></textarea>
+                    </td>  
+                </tr>
+                <tr>
+                    <td>    
+                        <label>
+                            <span>Módulos </span>
+                        </label>
+                    </td>
+                    <td>
+                        <label>
+                            <div id='myBox'><input type="checkbox" name="cbMod" value="compras" id="Com"><label for="Com"> Compras</label><input type="checkbox" name="cbMod" value="biblioteca" id="Bib"><label for="Bib"> Biclioteca</label><input type="checkbox" name="cbMod" value="academico" id="Aca"><label for="Aca"> Acadêmico</label><br><input type="checkbox" name="cbMod" value="documentacao" id="Mod"><label for="Mod"> Documentação</label><input type="checkbox" name="cbMod" value="RH" id="Rh"><label for="Rh"> Recursos Humanos</label></div>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <label>
+                <input type="submit" name="Save" value="Cadastrar">
+            </label>
+       
+            <label>
+                <input type="reset" name="Limpa" value="Exlcuir">
+            </label>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+form {
+    margin: auto;
+    width: 620px;
+    height: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#title tr td#primeira_parte {
+    background-color: rgb(102, 204, 255);
+    width: 60%;
+}
+
+#title {
+    width: 630px;
+}
+
+#Azul_Escuro {
+    background-color: blue;
+    width: 500px;
+}
+
+table {
+    width: 100%;
+}
+
+#I input[type="text"], #City, #Fax, #Pass {
+    width: 100%;
+}
+
+#F {
+    width: 94px;
+}
+
+.maior {
+    width: 612px;
+}
+
+#myBox {
+    margin: 10px -7px;
+}
+
+#Regras {
+    margin-left: -4px;
+}

@@ -1,0 +1,28 @@
+form {
+    margin: auto;
+    width: 400px;
+    padding: 10px 20px 10px 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type=text], textarea {
+    width: 100%;
+}
+
+span, h1 {
+    font-family: sans-serif;
+}
+
+span {
+    font-size: 9pt;
+}
+
+input[type=submit] {
+    background-image: linear-gradient(rgb(221, 221, 221), grey);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5%;
+}

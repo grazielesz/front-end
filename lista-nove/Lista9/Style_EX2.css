@@ -1,0 +1,251 @@
+* {
+    -webkit-user-select: none;  
+   -moz-user-select: none;     
+   -ms-user-select: none;      
+   user-select: none;  
+ } 
+
+body {
+    margin: 0px auto;
+    background-color: #121212;
+    background-image: url("fundo.png");
+
+}
+
+#Outsidebar, section, footer {
+    margin: auto;
+}
+
+header, nav {
+    margin: auto;
+}
+
+header #fotos {
+    text-align: center;
+    background-image: url("fundo-fotos.jpg")
+}
+
+#title h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#title h1::first-letter {
+    color: red;
+}
+
+#title {
+    background-image: linear-gradient( rgb(159, 42, 255) 40%, black);
+}
+
+nav {
+    text-align: right;
+    background-color: rgb(12, 12, 12);
+}
+
+nav button {
+    position: relative;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    border: none;
+
+}
+
+nav button:hover, label:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+section {
+    height: 80vh;
+    display: none;
+    background-color:azure ;
+    text-align: center;
+}
+
+section p {
+    text-align: justify;
+}
+
+section img {
+    border: solid;
+    width: 50%;
+}
+
+#I {
+    display: block;
+}
+
+#Abre {
+    float: left;
+}
+
+footer {
+    position: relative;
+    background-color: #121212;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#Mysidebar {
+    position: fixed;
+    top: 0;
+    display: none;
+    background-color: rgb(12, 12, 12);
+    margin: auto;
+    float: right;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.3s;
+}
+
+#Mysidebar h2 {
+    font-size: 100%;
+}
+
+#Mysidebar button {
+    color: white;
+    background-color: rgb(12, 12, 12);
+    border: none;
+}
+
+#Mysidebar button:hover {
+    background-color: rgb(43, 43, 43);
+    box-shadow: 10px 10px 70px black;
+}
+
+@media screen and (max-width: 2000px) {
+    #Outsidebar, section, footer {
+        width: 700px;
+    }
+
+    header, nav {
+        width: 100%;
+    }
+        
+    header {
+        height: 200px;
+        display: flex;
+    }
+
+    header #fotos {
+        width: 60%;
+    } 
+    
+    header #fotos img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #title h1 {
+        font-size: 40px;
+    }
+
+    #title {
+        width: 40%;
+    }
+
+    nav {
+        height: 50px;
+        padding-top: 0px;
+    }
+
+    nav button {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+        width: 20%;
+    }
+
+    section {
+        height: 100%;
+        padding-bottom: 2%;
+    }
+
+    section h1 {
+        padding-top: 6%;
+        margin: 0px 10%;
+    }
+
+    section p {
+        text-indent: 10%;
+        margin: 7%;
+    }
+
+    footer {
+        font-size: 15px;
+        padding: 10px 0px;
+        bottom: 0px;
+    }
+
+    #Mysidebar {
+        width: 20%;
+        height: 100%;
+    }
+
+    #Mysidebar button {
+        width: 100%;
+        height: 50px;
+        padding: 17px 0px;
+    }
+
+    .onside {
+        position: relative;
+        top: 200px;
+    }
+
+    #Fecha {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #Outsidebar, section, footer, header, nav {
+        width: 100%;
+    }
+        
+    header {
+        height: 100%;
+        display: block;
+    }
+
+    header #fotos {
+        background-image: none;
+        background-color: #121212;
+        width: 100%;
+        margin: 0px;
+    }    
+
+    header img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #title h1 {
+        font-size: 50px;
+        margin: 0px;
+    }
+
+    #title {
+        width: 100%;
+    }
+
+    nav {
+        height: 80px;
+        padding-top: 0px;
+    }
+
+    #Mysidebar {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    #Mysidebar button {
+        width: 100%;
+        height: 50px;
+        padding: 17px 0px;
+    }
+}
