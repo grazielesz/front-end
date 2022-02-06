@@ -1,0 +1,18 @@
+h1 {
+    color: #228B22; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline; 
+}
+
+h2{ 
+    color: #9ACD32;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Escolher a fonte, as vezes mais q uma pra caso o computador não ler uma*/
+    font-style: italic;
+}
+
+p{
+    font-size: 12pt;
+    line-height: 1.5; /*altura da linha*/
+    text-indent: 5pt; /*causa alteração no recuo de primeira linha*/ 
+    text-align: justify;  
+}

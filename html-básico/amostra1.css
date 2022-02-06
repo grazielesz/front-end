@@ -1,0 +1,122 @@
+H1 {
+	font-family: arial; /*define a fonte*/
+	font-size: xx-large; /*define o tamanho*/
+	font-weight: bold; /*coloca o texto em negrito*/
+	color: #800000; /*define a cor do texto*/
+	background: #FFFFCC; /*define a cor de fundo*/
+	text-align: center; /*alinha o texto*/
+	padding: 4pt; /*define a margem em relação ao objeto*/
+	border-top: inset; /* define o estilo da borda superior*/
+	border-bottom: inset; /*define o estilo da borda inferior*/
+	position: relative; /*determina a posição*/
+}
+
+H2 {
+	font-family: arial;
+	font-size: x-large;
+	font-weight: bold;
+	color: #FFFFCC;
+	background: #800000;
+	text-align: center;
+	padding: 3pt;
+	border-top: inset;
+	border-bottom: inset;
+	position: relative;
+}
+
+H3 {
+	font-family: arial;
+	font-size: large;
+	font-weight: bold;
+	color: #800080;
+	text-align: center;
+	border-top: inset;
+	border-bottom: inset;
+	position: relative;
+}
+
+A {
+	font-family: arial;
+	font-weight: bold;
+	color: #0000FF;
+	text-decoration: underline;
+	position: relative;
+}
+
+A:LINK {
+	font-family: arial;
+	font-weight: bold;
+	color: #800080;
+	text-decoration: underline;
+	position: relative;
+}
+
+A:VISITED {
+	font-family: arial;
+	font-weight: bold;
+	color: #800080;
+	text-decoration: underline;
+	position: relative;
+}
+
+B{
+	font-family: arial;
+	font-weight: bold;
+	color: #800000;
+	position: relative;
+}
+
+I {
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+}
+LI{
+	font-family: arial;
+	font-size: medium;
+	color: #000080;
+	position: relative;
+}
+
+P{
+	font-family: arial;
+	font-size: medium;
+	color: #000080;
+	position: relative;
+}
+
+TD {
+	font-family: sans-serif;
+	font-size: medium;
+	background: #99CCCC;
+}
+
+TH {
+	font-family: sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: #FF0000;
+	background: #FFFF00;
+	text-align: center;
+	position: relative;
+}
+
+PRE {
+	font-family: monospace;
+	font-size: medium;
+	background: #CCFFFF;
+	position: relative;
+	left: 1cm; /* cria um centímetro da borda à esquerda*/
+}
+
+.first {
+	border-top: ridge;
+	border-left: ridge;
+	position: relative;
+}
+
+.last {
+	border-bottom: ridge;
+	border-right: ridge;
+}
