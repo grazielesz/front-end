@@ -1,0 +1,3 @@
+- Título da página: Americanas.com.br
+- A imagem do topo deve ter um link que leva à página inicial.
+- Todos os textos estão em Verdana, tamanhos entre 1 e 4, cores #CCCCCC, #666666, #FF00000, #000000.

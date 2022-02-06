@@ -1,0 +1,43 @@
+body {
+    background-image: url("fundo_campo_edit.gif"), url(topo.jpg);
+    background-size: auto, 830px;
+    background-repeat: repeat, no-repeat;
+    background-position: top center, top center;
+    background-blend-mode: soft-light;
+}
+
+.main {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+    height: 100%;
+    text-align: left;
+    background-color: rgba(56, 56, 56, 0.9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.links {
+    text-align: right;
+    margin-right: 5px;
+}
+
+a {
+    color: #ffc000;
+
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.ita {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

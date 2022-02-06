@@ -1,0 +1,60 @@
+body {
+    background-image: url("fundo_campo_edit.gif"), url(topo.jpg);
+    background-size: auto, 830px;
+    background-repeat: repeat, no-repeat;
+    background-position: top center, top center;
+    background-blend-mode: soft-light;
+}
+
+.main {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+    height: 100%;
+    text-align: left;
+    background-color: rgba(56, 56, 56, 0.9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.links {
+    text-align: right;
+    margin-right: 5px;
+}
+
+a {
+    color: #ffc000;
+
+}
+
+h1 {
+    text-align: left;
+    color: #e9af00;
+
+}
+
+
+.foto_roberto {
+    border: 5px solid #ffc000;
+    margin: 10px;
+    border-spacing: 10px;
+    width: 230px;
+    float: left;
+
+
+}
+
+
+.roberto {
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+
+}
+
+
+.texto_roberto {
+    text-align: left;
+
+}
