@@ -1,0 +1,11 @@
+body {
+	background-color: #000;
+	background-image: url(fundo_stones.png);
+	background-repeat: no-repeat;
+	background-position: right 8.5cm;
+}
+
+h1 {
+	font-family: "Trebuchet MS";
+	color: #FFF;
+}

@@ -1,0 +1,8 @@
+body {
+	background-image: url(fundo.png);
+	background-repeat:repeat-x;
+}
+
+h1 {
+	font-family: "Trebuchet MS";
+}

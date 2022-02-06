@@ -1,0 +1,27 @@
+body {
+	background-color: #76FBDD;
+}
+
+h1 {
+	font-family: verdana;
+	color: #336C5F;
+}
+
+p {
+	font-family: verdana;
+	font-size: 12;
+	line-height: 1.5;
+	color: #336C5F;
+}
+
+a:link {
+	color: #6E6C5F;
+}
+
+a:visited {
+	color: #948F74;
+}
+
+a:hover {
+	color: #AEAB96;
+}
