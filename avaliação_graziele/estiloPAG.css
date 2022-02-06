@@ -1,0 +1,37 @@
+body{
+	font-family: sans-serif; /*decide de qual família a fonte será.*/
+	font-size: 18pt; /*tamanho da fonte.*/
+	width:  80%; /*decide a largura, ou seja, a partir do mesmo, podemos ver a disposição dos paragráfos*/
+	margin: 0 auto; /*margem*/
+	text-align: justify; /*alinhamento do texto*/
+	background-color: #A5ACAD; /*decide a cor de fundo da página*/
+	background: linear-gradient(#AAA #EEE) no-repeat; /*cria um efeito degradê em forma linear*/
+	background-size: 100% 1800px;
+}
+
+h1{
+	background-color: #BBBCBC;
+}
+p{	text-indent: 1cm;} /*identação de texto*/
+
+ol{
+	font-family: verdana;
+	background-color: #959C9C;
+}
+
+.blue{color: blue;} /*decide a cor a partir do que definirmos*/
+
+img{
+	border-radius: 50%; /*define o raio da borda*/
+	width: 15%;
+	margin: 0;
+}
+
+.animais{
+	display: -webkit-flex; /*tipo de caixa de renderização usada por um elemento.*/
+	display: flex;
+	-webkit-align-items: center; /*alinha as imagens/itens de acordo com o pedido dentro do display*/
+	align-items: center; /*alinha itens*/
+	-webkit-justify-content: center; /*define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo.*/
+	justify-content: center;
+}
